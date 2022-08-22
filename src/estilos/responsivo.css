@@ -1,0 +1,42 @@
+@media screen and (max-width: 600px) {
+    .cabecalho {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cabecalho-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 15px;
+        margin: 0;
+        gap: 15px;
+    }
+
+    .cabecalho-menu-item {
+        font-size: 25px;
+    }
+
+    .conteudo-principal {
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conteudo-principal-escrito {
+        display: flex;
+        align-items: center;
+    }
+
+    .conteudo-principal-subtitulo {
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .conteudo-principal-imagem {
+        padding: 20px;
+        width: 350px;
+        margin: 20px;
+    }
+    
+}

@@ -1,0 +1,160 @@
+@import url('http://fonts.cdnfonts.com/css/bignoodletitling');
+
+html::-webkit-scrollbar {
+    width: 8px;
+}
+
+html::-webkit-scrollbar-track {
+    background-color: rgba(194, 58, 171);
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: #c471b6;
+    border-radius: 5px;
+}
+
+body {
+    background: linear-gradient(68.15deg,#c471b6 16.62%, #c23aab  85.61%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem {
+    width: 70px;
+    height: 70px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'BigNoodleTitling', sans-serif;
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.cabecalho-menu-item:hover {
+    transform: scale(1.07);
+}
+
+.conteudo {
+    margin-bottom: 10px;
+    border-top: 0.4px solid #ca98c2;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.conteudo-principal-botao {
+    margin-top: 10px;
+    background-color: #c23aab;
+    width: 130px;
+    height: 50px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    font-family: 'BigNoodleTitling', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.conteudo-principal-botao:hover {
+    /* background-color: rgba(255, 255, 255, 0.0); */
+    border: 0.7px solid rgba(255, 255, 255, 0.9);
+    transform: scale(1.07);
+}
+
+.conteudo-principal-imagem {
+    width: 600px;
+    padding-right: 50px;
+}
+
+.conteudo-principal-titulo {
+    font-family: 'BigNoodleTitling', sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    color: #ffffff;
+}
+
+.conteudo-principal-subtitulo {
+    font-family: 'BigNoodleTitling', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 0.7px;
+    color: #ffffff;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+
+}
+
+.conteudo-secundario-titulo {
+    width: 350px;
+    /* border-top: 0.4px solid #ca98c2; */
+    font-family: 'BigNoodleTitling', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.conteudo-secundario-paragrafo {
+    width: 600px;
+    padding: 0px 20px 20px 20px;
+    font-family: Arial,sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    text-align: center;
+    color: #ffffff;
+    text-align: justify;
+}
+
+.rodape {
+    padding: 10px;
+    border-top: 0.4px solid #ca98c2;
+    display: flex;
+}
+
+.rodape-imagem {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
