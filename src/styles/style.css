@@ -1,4 +1,7 @@
-@import url('http://fonts.cdnfonts.com/css/bignoodletitling');
+@font-face {
+    font-family: BigNoodleTitling;
+    src: url(../fonts/big_noodle_titling.ttf);
+ }
 
 html::-webkit-scrollbar {
     width: 8px;
